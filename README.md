@@ -14,6 +14,8 @@ The project consists of the following components:
 ExactOutliers (Sequential Algorithm):
 Implementation of the exact algorithm using standard sequential code without RDDs.
 Computes the number of outliers and lists the top outliers in non-decreasing order of their distances from other points.
+
+
 MRApproxOutliers (Spark Implementation):
 Implementation of the approximate algorithm using Apache Spark.
 Divides the input data into suitable partitions and processes them using Spark RDDs.
